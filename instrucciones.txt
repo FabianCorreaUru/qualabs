@@ -1,0 +1,29 @@
+Implemente la solución de la prueba técnica para las partes A y B (Back End).
+Para el desarrollo utilize entorno de ejecución node.js y express.js.
+Para la configuración del ambiente es necesario tener instalado node.js.
+
+En la terminal de Windows, estos fueros los comandos que ejecute:
+
+1) mkdir qualabs
+2) cd qualabs
+2) npm init -y
+3) npm i -D nodemon
+4) npm i express
+5) npm run dev
+
+Para probar la solución unicamente hay que ir al directorio qualabs por la linea de comandos y ejecutar el 5to paso.
+Una vez que se levanta el servidor el mismo se escucha en el puerto 3000. (http://localhost:3000)
+Básicamente la arquitectura del projecto esta en 4 directorios (controllers, database, routes, services)
+El route dispatcher tiene 4 urls disponibles ("/", "/user/:Id", "/partA", "/partB")
+
+localhost:3000/api/v1/ (Devuelve un listado de todos los usuarios de los archivos provistos en formato json)
+localhost:3000/api/v1/user/:Id (Devuelve el número de usuario pasado por Id, en caso que el Id sea válido)
+localhost:3000/api/v1/partA (Devuelve la solución de la parte A)
+localhost:3000/api/v1/partB (Devuelve la solución de la parte B)
+
+En total tuve una dedicación de unas 8 horas aproximadamente.
+
+
+
+
+
